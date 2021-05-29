@@ -1,0 +1,63 @@
+*{
+    margin: 0; padding: 0; box-shadow: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav{
+     width: 100%;
+    height: 15vh;
+    background-color: rgb(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: cornsilk;
+    text-transform: uppercase;
+    animation: nav-color-changer 12s infinite ease-in-out;
+    
+
+  
+}
+nav .logo{
+    width: 25%;  
+    text-align: center;
+    
+}
+
+nav .menu{
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+   
+
+   
+}
+
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav .menu a:first-child{
+   color:#00b894; 
+}
+
+
+@keyframes nav-color-changer {
+    0%{
+           background-color: rgb(0,0,0,0.3);
+    }
+    20%{
+           background-color: rgb(0,0,0,0.5);
+    }
+    40%{
+           background-color: rgb(0,0,0,0.6);
+
+    }
+
+    0%{
+           background:rgba(77, 175, 124, 1);
+    }
+}
